@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice-cream</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv=”Permissions-Policy” content=”interest-cohort=()” />
+    <link rel="stylesheet" href="css/common.css" />
+        <!-- <script src="/dist/iceCream.js"></script> -->
+    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+</head>
+
+<body>
+    <h2>Купуйте морозиво</h2>
+    <h3>Оберіть розмір морозива</h3>
+    <div class="iсe-cream">
+        <ul>
+            <li>
+                <span>- Великий стаканчик (25грн)</span>
+                <input type="number" class="big-size" value="0" min="0">
+            </li>
+            <li>
+                <span>- Маленький стаканчик (10грн)</span>
+                <input type="number" class="small-size" value="0" min="0">
+            </li>
+        </ul>
+        <!-- 
+chocolate
+caramel
+berries
+marshmallows 
+-->
+        <h3>Оберіть обов'язкову начинку</h3>
+        <ul>
+            <li>
+                <span>- шоколад (+5грн)</span>
+                <input type="number" class="chocolate" value="0" min="0">
+            </li>
+            <li>
+                <span>- карамель (+6грн)</span>
+                <input type="number" class="caramel" value="0" min="0">
+            </li>
+            <li>
+                <span>- ягоди (+10грн)</span>
+                <input type="number" class="berries" value="0" min="0">
+            </li>
+        </ul>
+
+        <h3>Необов'язкова начинка</h3>
+        <ul>
+            <li>
+                <span>- маршмелоу (+5грн)</span>
+                <input type="number" class="marshmallows" value="0" min="0">
+            </li>
+        </ul>
+
+        <button id="ice-cream-total">Разом</button>
+    </div>
+            <script src="./dist/iceCream.js"></script>
+
+</body>
+
+</html>

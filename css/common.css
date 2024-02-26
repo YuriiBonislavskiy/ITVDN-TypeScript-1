@@ -17,22 +17,31 @@ input {
   padding: 8px;
   text-align: right;
   font: inherit;
+  font-weight: 900;
   margin-left: auto;
 }
 
-button {
+/* button {
   padding: 8px 12px;
   cursor: pointer;
+} */
+
+.iсe-cream {
+  max-width: max-content;
+  margin-bottom: 10px;
 }
 
-div {
-  max-width: max-content;
+ul {
+  padding: 0px;
 }
 
 li {
   width: 100%;
   display: flex;
   align-content: space-between;
+  /* text-align:justify; */
+  padding: 0px;
+  /* list-style-type: circle; */
 }
 
 input {
@@ -40,6 +49,6 @@ input {
   margin-bottom: 5px;
 }
 
-p {
+span {
   margin-right: 30px;
 }
