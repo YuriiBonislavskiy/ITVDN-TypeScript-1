@@ -34,6 +34,9 @@ function iceCreamCount(): number {
     berries = Number(refs.berries.value),
     marshmallows = Number(refs.marshmallows.value),
   }
+    
+    // console.log(iceCreams.smallSize);
+
   const mandatoryFillingCount: number =
     iceCreams.chocolate + iceCreams.caramel + iceCreams.berries;
   const iceCreamCount: number = iceCreams.bigSize + iceCreams.smallSize;
